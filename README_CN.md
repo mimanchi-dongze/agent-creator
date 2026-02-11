@@ -2,7 +2,7 @@
 
 > **通过高信息密度的“被动上下文”和跨平台技能集成，释放 AI Agent 的全部潜力。**
 
-[![NPM Version](https://img.shields.io/npm/v/@agent-creator/cli.svg)](https://www.npmjs.com/package/@agent-creator/cli)
+[![NPM Version](https://img.shields.io/npm/v/@mimanchi-dongze/agent-creator.svg)](https://www.npmjs.com/package/@mimanchi-dongze/agent-creator)
 [![GitHub License](https://img.shields.io/github/license/mimanchi-dongze/agent-creator.svg)](LICENSE)
 [![CI/CD](https://github.com/mimanchi-dongze/agent-creator/actions/workflows/publish.yml/badge.svg)](https://github.com/mimanchi-dongze/agent-creator/actions)
 
@@ -37,10 +37,10 @@ Agent Creator 本身就是一个**标准化的 Skill**。将其链接到你的 A
 ### 安装
 ```bash
 # 使用 npx (推荐)
-npx @agent-creator/cli init
+npx @mimanchi-dongze/agent-creator init
 
 # 或者全局安装
-npm install -g @agent-creator/cli
+npm install -g @mimanchi-dongze/agent-creator
 ```
 
 ### 使用方法
@@ -60,8 +60,8 @@ agent-creator init
 
 | 软件包 | 职责 |
 | :--- | :--- |
-| **[`@agent-creator/core`](./packages/core)** | 逻辑引擎：负责索引、技能匹配和模板渲染。 |
-| **[`@agent-creator/cli`](./packages/cli)** | 交互层：提供命令行体验和模板打包。 |
+| **[`@mimanchi-dongze/agent-creator-core`](./packages/core)** | 逻辑引擎：负责索引、技能匹配和模板渲染。 |
+| **[`@mimanchi-dongze/agent-creator`](./packages/cli)** | 交互层：提供命令行体验和模板打包。 |
 
 ---
 

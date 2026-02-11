@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import os from 'os';
 import { execSync } from 'child_process';
-import { AgentGenerator, SkillMatcher, ProjectIndexer } from '@agent-creator/core';
+import { AgentGenerator, SkillMatcher, ProjectIndexer } from '@mimanchi-dongze/agent-creator-core';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 export const initCommand = async () => {

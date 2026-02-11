@@ -4,7 +4,7 @@
 
 **English** | [简体中文](./README_CN.md)
 
-[![NPM Version](https://img.shields.io/npm/v/@agent-creator/cli.svg)](https://www.npmjs.com/package/@agent-creator/cli)
+[![NPM Version](https://img.shields.io/npm/v/@mimanchi-dongze/agent-creator.svg)](https://www.npmjs.com/package/@mimanchi-dongze/agent-creator)
 [![GitHub License](https://img.shields.io/github/license/mimanchi-dongze/agent-creator.svg)](LICENSE)
 [![CI/CD](https://github.com/mimanchi-dongze/agent-creator/actions/workflows/publish.yml/badge.svg)](https://github.com/mimanchi-dongze/agent-creator/actions)
 
@@ -37,10 +37,10 @@ Agent Creator is itself a **standardized Skill**. Once linked, you can invoke it
 ### Installation
 ```bash
 # Using npx (Recommended)
-npx @agent-creator/cli init
+npx @mimanchi-dongze/agent-creator init
 
 # Or install globally
-npm install -g @agent-creator/cli
+npm install -g @mimanchi-dongze/agent-creator
 ```
 
 ### Usage
@@ -60,8 +60,8 @@ This is a Monorepo powered by `npm workspaces`:
 
 | Package | Role |
 | :--- | :--- |
-| **[`@agent-creator/core`](./packages/core)** | The logic engine: handles indexing, skill matching, and template rendering. |
-| **[`@agent-creator/cli`](./packages/cli)** | The interactive layer: provides the CLI experience and template bundling. |
+| **[`@mimanchi-dongze/agent-creator-core`](./packages/core)** | The logic engine: handles indexing, skill matching, and template rendering. |
+| **[`@mimanchi-dongze/agent-creator`](./packages/cli)** | The interactive layer: provides the CLI experience and template bundling. |
 
 ---
 

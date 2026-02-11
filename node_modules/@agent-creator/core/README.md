@@ -1,4 +1,4 @@
-# @agent-creator/core
+# @mimanchi-dongze/agent-creator-core
 
 The logic engine behind Agent Creator. Provides project indexing, skill matching, and template rendering for AI-native development.
 
@@ -9,12 +9,12 @@ The logic engine behind Agent Creator. Provides project indexing, skill matching
 
 ## Installation
 ```bash
-npm install @agent-creator/core
+npm install @mimanchi-dongze/agent-creator-core
 ```
 
 ## Usage
 ```typescript
-import { ProjectIndexer, SkillMatcher } from '@agent-creator/core';
+import { ProjectIndexer, SkillMatcher } from '@mimanchi-dongze/agent-creator-core';
 
 const indexer = new ProjectIndexer();
 const context = await indexer.index(process.cwd());
