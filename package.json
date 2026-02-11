@@ -1,0 +1,31 @@
+{
+  "name": "agent-creator-monorepo",
+  "version": "0.1.0",
+  "description": "A tool for automatically generating, designing, configuring and deploying AI Agents.",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "agent.md",
+    "automation",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimanchi-dongze/agent-creator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}

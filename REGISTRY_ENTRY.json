@@ -1,0 +1,14 @@
+{
+    "name": "agent-creator",
+    "description": "Automate AI-native project setup and manage multi-agent skills.",
+    "tags": [
+        "agents",
+        "init",
+        "setup",
+        "automation",
+        "passive-context"
+    ],
+    "provider": "community",
+    "repository": "https://github.com/mimanchi-dongze/agent-creator",
+    "homepage": "https://github.com/mimanchi-dongze/agent-creator#readme"
+}
