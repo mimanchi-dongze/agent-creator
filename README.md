@@ -4,11 +4,23 @@
 
 **English** | [简体中文](./README_CN.md)
 
-[![NPM Version](https://img.shields.io/npm/v/@mimanchi-dongze/agent-creator.svg)](https://www.npmjs.com/package/@mimanchi-dongze/agent-creator)
+[![NPM Version](https://img.shields.io/npm/v/@codemi/agent-creator.svg)](https://www.npmjs.com/package/@codemi/agent-creator)
 [![GitHub License](https://img.shields.io/github/license/mimanchi-dongze/agent-creator.svg)](LICENSE)
 [![CI/CD](https://github.com/mimanchi-dongze/agent-creator/actions/workflows/publish.yml/badge.svg)](https://github.com/mimanchi-dongze/agent-creator/actions)
 
-Agent Creator is a powerful Monorepo designed to automate the setup of AI-native projects. It builds on Vercel's **Passive Context Strategy**, enabling AI agents to reach near-100% task success rates by providing them with a high-density project index (`AGENTS.md`) from the very first turn.
+Agent Creator is a powerful Monorepo designed to automate the setup of AI-native projects. It implements the **Passive Context Protocol** (innovated by the Vercel team), which enables AI agents to reach **100% task success rates** by providing high-density project context from the very first turn.
+
+---
+
+## 📖 Philosophy & Motivation
+
+Current AI coding tools often rely on **Active Retrieval** (e.g., "let me search for the file tree"). However, [Vercel's research](https://vercel.com/blog/assessing-agentic-coding-success-passive-context) shows that providing a single, high-density index (`AGENTS.md`)—known as **Passive Context**—leads to significantly better outcomes:
+
+- **100% Success vs 70%**: Agents with full passive context achieve perfect success rates in complex tasks.
+- **Zero Latency**: Eliminates the "thinking" steps where agents decide what to search.
+- **Cross-Agent Standard**: A unified context format that works across Claude, Cursor, and beyond.
+
+**Agent Creator** simplifies the adoption of this protocol for every developer.
 
 ---
 
@@ -37,10 +49,10 @@ Agent Creator is itself a **standardized Skill**. Once linked, you can invoke it
 ### Installation
 ```bash
 # Using npx (Recommended)
-npx @mimanchi-dongze/agent-creator init
+npx @codemi/agent-creator init
 
 # Or install globally
-npm install -g @mimanchi-dongze/agent-creator
+npm install -g @codemi/agent-creator
 ```
 
 ### Usage
@@ -60,7 +72,7 @@ This is a Monorepo powered by `npm workspaces`:
 
 | Package | Role |
 | :--- | :--- |
-| **[`@mimanchi-dongze/agent-creator-core`](./packages/core)** | The logic engine: handles indexing, skill matching, and template rendering. |
+| **[`@codemi/agent-creator-core`](./packages/core)** | The logic engine: handles indexing, skill matching, and template rendering. |
 | **[`@mimanchi-dongze/agent-creator`](./packages/cli)** | The interactive layer: provides the CLI experience and template bundling. |
 
 ---

@@ -1,14 +1,14 @@
-# @mimanchi-dongze/agent-creator
+# @codemi/agent-creator
 
 The ultimate CLI for setting up AI-native projects.
 
 ## Installation
 ```bash
-npm install -g @mimanchi-dongze/agent-creator
+npm install -g @codemi/agent-creator
 ```
 Or use it directly:
 ```bash
-npx @mimanchi-dongze/agent-creator init
+npx @codemi/agent-creator init
 ```
 
 ## Features

@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { ProjectIndexer, AgentGenerator } from '@mimanchi-dongze/agent-creator-core';
+import { ProjectIndexer, AgentGenerator } from '@codemi/agent-creator-core';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 export const indexCommand = async () => {

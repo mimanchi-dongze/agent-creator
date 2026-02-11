@@ -2,13 +2,25 @@
 
 > **通过高信息密度的“被动上下文”和跨平台技能集成，释放 AI Agent 的全部潜力。**
 
-[![NPM Version](https://img.shields.io/npm/v/@mimanchi-dongze/agent-creator.svg)](https://www.npmjs.com/package/@mimanchi-dongze/agent-creator)
+[![NPM Version](https://img.shields.io/npm/v/@codemi/agent-creator.svg)](https://www.npmjs.com/package/@codemi/agent-creator)
 [![GitHub License](https://img.shields.io/github/license/mimanchi-dongze/agent-creator.svg)](LICENSE)
 [![CI/CD](https://github.com/mimanchi-dongze/agent-creator/actions/workflows/publish.yml/badge.svg)](https://github.com/mimanchi-dongze/agent-creator/actions)
 
 [English](./README.md) | **简体中文**
 
-Agent Creator 是一个强大的 Monorepo 工具，旨在自动化构建“AI 原生”项目。它基于 Vercel 提出的 **Passive Context（被动上下文）策略**，通过为 AI 提供高密度的项目索引（`AGENTS.md`），使 AI Agent 的任务成功率能从 70% 左右提升至近乎 100%。
+Agent Creator 是一个强大的 Monorepo 工具，旨在自动化构建“AI 原生”项目。它实现了 **Passive Context Protocol（被动上下文协议）**（由 Vercel 团队提出），旨在通过提供高密度的项目上下文，使 AI Agent 的任务成功率在第一步就达到 **100%**。
+
+---
+
+## 📖 核心理念与动机
+
+目前的 AI 编程工具大多依赖 **Active Retrieval（主动检索）**（例如：“让我先搜索一下文件树”）。然而，[Vercel 的研究](https://vercel.com/blog/assessing-agentic-coding-success-passive-context)表明，提供单一、高密度的索引文件（`AGENTS.md`）——即 **Passive Context（被动上下文）**——能带来显著的性能提升：
+
+- **100% 成功率 vs 70%**：拥有完整被动上下文的代理在复杂任务中能达到完美的成功率。
+- **零延迟**：消除了代理决定“该搜索什么”的思考步骤。
+- **跨代理标准**：一种通用的上下文格式，适用于 Claude、Cursor 等各种工具。
+
+**Agent Creator** 的使命是让每一位开发者都能低成本地应用这一协议。
 
 ---
 
@@ -37,10 +49,10 @@ Agent Creator 本身就是一个**标准化的 Skill**。将其链接到你的 A
 ### 安装
 ```bash
 # 使用 npx (推荐)
-npx @mimanchi-dongze/agent-creator init
+npx @codemi/agent-creator init
 
 # 或者全局安装
-npm install -g @mimanchi-dongze/agent-creator
+npm install -g @codemi/agent-creator
 ```
 
 ### 使用方法
@@ -60,7 +72,7 @@ agent-creator init
 
 | 软件包 | 职责 |
 | :--- | :--- |
-| **[`@mimanchi-dongze/agent-creator-core`](./packages/core)** | 逻辑引擎：负责索引、技能匹配和模板渲染。 |
+| **[`@codemi/agent-creator-core`](./packages/core)** | 逻辑引擎：负责索引、技能匹配和模板渲染。 |
 | **[`@mimanchi-dongze/agent-creator`](./packages/cli)** | 交互层：提供命令行体验和模板打包。 |
 
 ---

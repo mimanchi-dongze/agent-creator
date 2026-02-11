@@ -13,7 +13,7 @@ Initialize a new project with natural language goals, automated skill discovery,
 
 ## Usage
 Add this skill to your environment to streamline agent setup:
-1. Run `npx skills add agent-creator` (once registered) or use locally.
+1. Run `npx skills add @codemi/agent-creator` (once registered) or use locally.
 2. Type `/agent-creator` in your AI coding tool to start the setup flow.
 
 ## Description

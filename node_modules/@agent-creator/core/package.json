@@ -1,5 +1,5 @@
 {
-    "name": "@mimanchi-dongze/agent-creator-core",
+    "name": "@codemi/agent-creator-core",
     "version": "0.1.0",
     "description": "Core logic layer for Agent Creator",
     "type": "module",
